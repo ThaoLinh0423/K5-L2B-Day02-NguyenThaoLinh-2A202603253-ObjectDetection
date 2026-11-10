@@ -24,4 +24,4 @@
 | --- | --- | --- | --- |
 | `drive_003` |Xe ở quá xa, kích thước nhỏ, khó quan sát đặc điểm phương tiện.|Không gán nhãn nếu không đủ bằng chứng xác định lớp. Nếu vẫn nhận diện rõ loại xe thì gán nhãn bình thường.|Schema yêu cầu xác định đúng class dựa trên đặc điểm hình ảnh. Không suy đoán khi vật thể quá nhỏ hoặc mơ hồ. |
 | `drive_004` |Ảnh ban đêm, xuất hiện nhiều đèn xe xung quanh, khó xác định vật thể có phải xe hay không.|Không gán nhãn các vùng chỉ có ánh sáng hoặc đèn xe. Chỉ gán nhãn khi quan sát được đủ đặc điểm của phương tiện.|Đèn xe không phải là một đối tượng thuộc các class car, truck, bus, van. Cần có bằng chứng nhận diện phương tiện.|
-| `drive_005` | | | |
+| `drive_005` |Nhiều xe nối đuôi nhau trong dòng giao thông đông đúc, các xe bị che khuất một phần bởi xe phía trước hoặc bị cắt mép ảnh.|Vẽ box riêng cho từng xe ôm sát phần thân xe nhìn thấy được (visible box). Bỏ qua các xe bị che khuất trên 50% hoặc không đủ đặc điểm nhận diện lớp.|Quy định schema yêu cầu mỗi phương tiện là một box riêng biệt, box ôm sát phần nhìn thấy và không suy đoán phần bị che khuất hay phần nằm ngoài khung hình.|
