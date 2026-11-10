@@ -4,10 +4,10 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email:
-- Lớp:
+- Họ tên: Nguyễn Thảo Linh
+- MSSV: 2A202603253
+- Email: nguyenlinhthao666@gmail.com
+- Lớp: 2B
 - Link repo bài làm:
 - Link Colab đã chạy:
 
